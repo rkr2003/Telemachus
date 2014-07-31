@@ -13,4 +13,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <StartArguments>SocketStealing</StartArguments>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartArguments>SocketStealing</StartArguments>
+  </PropertyGroup>
 </Project>

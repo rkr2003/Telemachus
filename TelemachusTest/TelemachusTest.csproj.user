@@ -16,4 +16,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartArguments>WebSocketServiceSubscriptionAndStream</StartArguments>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartArguments>WebSocketServiceSubscriptionAndStream</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <StartArguments>WebSocketServiceSubscriptionAndStream</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release X64|AnyCPU'">
+    <StartArguments>WebSocketServiceSubscriptionAndStream</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release X64|x64'">
+    <StartArguments>WebSocketServiceSubscriptionAndStream</StartArguments>
+  </PropertyGroup>
 </Project>
